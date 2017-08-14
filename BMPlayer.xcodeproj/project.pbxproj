@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53BC2F841F41BB5500DDC89D /* BMPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC2F831F41BB5500DDC89D /* BMPlayerManager.swift */; };
 		6A5B61D01EADB5DA00158FF9 /* BMPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5B61C41EADB5DA00158FF9 /* BMPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A5B61D11EADB5DA00158FF9 /* BMPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61C51EADB5DA00158FF9 /* BMPlayer.swift */; };
 		6A5B61D21EADB5DA00158FF9 /* BMPlayerClearityChooseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61C61EADB5DA00158FF9 /* BMPlayerClearityChooseButton.swift */; };
 		6A5B61D31EADB5DA00158FF9 /* BMPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61C71EADB5DA00158FF9 /* BMPlayerControlView.swift */; };
 		6A5B61D41EADB5DA00158FF9 /* BMPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61C81EADB5DA00158FF9 /* BMPlayerItem.swift */; };
 		6A5B61D51EADB5DA00158FF9 /* BMPlayerLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61C91EADB5DA00158FF9 /* BMPlayerLayerView.swift */; };
-		6A5B61D61EADB5DA00158FF9 /* BMPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61CA1EADB5DA00158FF9 /* BMPlayerManager.swift */; };
 		6A5B61D71EADB5DA00158FF9 /* BMPlayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61CB1EADB5DA00158FF9 /* BMPlayerProtocols.swift */; };
 		6A5B61D81EADB5DA00158FF9 /* BMSubtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61CC1EADB5DA00158FF9 /* BMSubtitles.swift */; };
 		6A5B61D91EADB5DA00158FF9 /* BMTimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B61CD1EADB5DA00158FF9 /* BMTimeSlider.swift */; };
@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53BC2F831F41BB5500DDC89D /* BMPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BMPlayerManager.swift; path = Default/BMPlayerManager.swift; sourceTree = "<group>"; };
 		6A302EE81DF199F700AD54B6 /* BMPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5B61C41EADB5DA00158FF9 /* BMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPlayer.h; sourceTree = "<group>"; };
 		6A5B61C51EADB5DA00158FF9 /* BMPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPlayer.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		6A5B61C71EADB5DA00158FF9 /* BMPlayerControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPlayerControlView.swift; sourceTree = "<group>"; };
 		6A5B61C81EADB5DA00158FF9 /* BMPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPlayerItem.swift; sourceTree = "<group>"; };
 		6A5B61C91EADB5DA00158FF9 /* BMPlayerLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPlayerLayerView.swift; sourceTree = "<group>"; };
-		6A5B61CA1EADB5DA00158FF9 /* BMPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPlayerManager.swift; sourceTree = "<group>"; };
 		6A5B61CB1EADB5DA00158FF9 /* BMPlayerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMPlayerProtocols.swift; sourceTree = "<group>"; };
 		6A5B61CC1EADB5DA00158FF9 /* BMSubtitles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMSubtitles.swift; sourceTree = "<group>"; };
 		6A5B61CD1EADB5DA00158FF9 /* BMTimeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMTimeSlider.swift; sourceTree = "<group>"; };
@@ -82,13 +82,13 @@
 		6A5B61C31EADB5DA00158FF9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				53BC2F831F41BB5500DDC89D /* BMPlayerManager.swift */,
 				6A5B61C41EADB5DA00158FF9 /* BMPlayer.h */,
 				6A5B61C51EADB5DA00158FF9 /* BMPlayer.swift */,
 				6A5B61C61EADB5DA00158FF9 /* BMPlayerClearityChooseButton.swift */,
 				6A5B61C71EADB5DA00158FF9 /* BMPlayerControlView.swift */,
 				6A5B61C81EADB5DA00158FF9 /* BMPlayerItem.swift */,
 				6A5B61C91EADB5DA00158FF9 /* BMPlayerLayerView.swift */,
-				6A5B61CA1EADB5DA00158FF9 /* BMPlayerManager.swift */,
 				6A5B61CB1EADB5DA00158FF9 /* BMPlayerProtocols.swift */,
 				6A5B61CC1EADB5DA00158FF9 /* BMSubtitles.swift */,
 				6A5B61CD1EADB5DA00158FF9 /* BMTimeSlider.swift */,
@@ -190,13 +190,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A5B61D41EADB5DA00158FF9 /* BMPlayerItem.swift in Sources */,
-				6A5B61D61EADB5DA00158FF9 /* BMPlayerManager.swift in Sources */,
 				6A5B61D81EADB5DA00158FF9 /* BMSubtitles.swift in Sources */,
 				6A5B61D71EADB5DA00158FF9 /* BMPlayerProtocols.swift in Sources */,
 				6A5B61D51EADB5DA00158FF9 /* BMPlayerLayerView.swift in Sources */,
 				6A5B61D31EADB5DA00158FF9 /* BMPlayerControlView.swift in Sources */,
 				6A5B61D11EADB5DA00158FF9 /* BMPlayer.swift in Sources */,
 				6A5B61D21EADB5DA00158FF9 /* BMPlayerClearityChooseButton.swift in Sources */,
+				53BC2F841F41BB5500DDC89D /* BMPlayerManager.swift in Sources */,
 				6A5B61D91EADB5DA00158FF9 /* BMTimeSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
